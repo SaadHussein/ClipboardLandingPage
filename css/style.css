@@ -1,0 +1,287 @@
+/********************************/
+/* HEADER */
+/********************************/
+
+.header {
+  padding: 200px 50px;
+  background-image: url(../images/bg-header-desktop.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  margin-bottom: 45px;
+}
+
+.first-heading {
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 20px;
+}
+
+.header-paragraph-in {
+  color: hsl(201, 11%, 66%);
+  font-size: 15px;
+  text-align: center;
+  max-width: 550px;
+  line-height: 1.6;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+.linkss:link,
+.linkss:visited {
+  text-decoration: none;
+  padding: 12px 24px;
+  color: #fff;
+  border-radius: 24px;
+  transition: all 0.3s;
+}
+
+.link-one:link,
+.link-one:visited {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0 2px 16px hsl(171, 81%, 71%);
+}
+
+.link-one:hover,
+.link-one:active {
+  background-color: hsl(171, 78%, 47%);
+}
+
+.link-two:link,
+.link-two:visited {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0 2px 16px hsl(233, 73%, 77%);
+}
+
+.link-two:hover,
+.link-two:active {
+  background-color: hsl(233, 72%, 70%);
+}
+
+/********************************/
+/* KEEP-TRACK */
+/********************************/
+
+.keep-track {
+  margin-top: -50px;
+  margin-bottom: 85px;
+}
+
+/********************************/
+/* FEATURES */
+/********************************/
+
+.features {
+  display: flex;
+  gap: 96px;
+  margin-bottom: 128px;
+  align-items: center;
+}
+
+.features-img {
+  margin-left: -32px;
+}
+
+.img-mac {
+  width: 100%;
+}
+
+.list-of-features {
+  display: flex;
+  flex-direction: column;
+  row-gap: 64px;
+  margin-top: -128px;
+}
+
+.feature-item-head {
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 16px;
+}
+
+.feature-item-paragraph {
+  color: hsl(201, 11%, 66%);
+  text-align: start;
+  max-width: 450px;
+  line-height: 1.6;
+}
+
+/********************************/
+/* Access Clipboard anywhere */
+/********************************/
+
+.Access-Clipboard-anywhere {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.access {
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.access-clipboard {
+  margin-bottom: 64px;
+}
+
+/********************************/
+/* Supercharge your workflow */
+/********************************/
+
+.supercharge {
+  margin-top: 84px;
+  margin-bottom: 72px;
+}
+
+.supercharge-paragraph {
+  font-size: 15px;
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+}
+
+/********************************/
+/* FEATURES WITH ICONS */
+/********************************/
+
+.features-with-icon {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 156px;
+}
+
+.feature-itemm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px;
+}
+
+.icon-image {
+  margin-bottom: 48px;
+}
+
+.feature-icon-head {
+  margin-bottom: 24px;
+  color: hsl(210, 10%, 33%);
+  font-size: 21px;
+}
+
+.feature-icon-paragraph {
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.6;
+  align-self: center;
+}
+
+.packagee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.packagee-margin {
+  margin-top: 8px;
+}
+
+/********************************/
+/* COMPANIES */
+/********************************/
+
+.companies {
+  margin: 0 auto;
+  max-width: 1250px;
+  margin-bottom: 156px;
+}
+
+.logoos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logoos img {
+  height: 48px;
+}
+
+/********************************/
+/* COMPANIES */
+/********************************/
+
+.before-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.extra {
+  margin-bottom: 24px !important;
+}
+
+/********************************/
+/* FOOTER */
+/********************************/
+
+.foooter {
+  margin-top: 96px;
+  background-color: hsl(200, 25%, 95%);
+  height: 176px;
+  display: grid;
+}
+
+.logo-footer {
+  padding: 32px;
+}
+
+.logo-for-footer {
+  max-width: 40%;
+  margin-top: 24px;
+}
+
+.grid-footer {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 48px;
+}
+
+.div-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 56px;
+  row-gap: 24px;
+}
+
+.social {
+  margin-left: 84px;
+  margin-top: 76px;
+}
+
+.social-icon,
+.social-icon:link,
+.social-icon:visited {
+  margin-right: 16px;
+  width: 28px;
+  height: 28px;
+  color: #666;
+  transition: all 0.3s;
+}
+
+.social-icon:hover,
+.social-icon:active {
+  color: hsl(171, 66%, 44%);
+}
+
+.marginnn {
+  margin-top: -5px;
+}
